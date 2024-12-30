@@ -19,7 +19,7 @@
     text-align: center;
 }
 .attribution a{
-    color: white;
+    color: var(--ingredients-textcolor);
 }
 *{
     margin: 0;
@@ -137,5 +137,8 @@ td{
     }
   .content{
     padding: 15px 30px;
+  }
+  .attribution{
+    display: none;
   }
 }
